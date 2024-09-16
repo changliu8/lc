@@ -31,7 +31,7 @@ export default defineConfig({
     }),
     prefetchPlugin()
   ],
-  base="/lc",
+  base:"/lc",
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url)),
