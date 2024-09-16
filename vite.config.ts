@@ -18,6 +18,7 @@ export default defineConfig({
     //     style: 'css',
     //   }
     // ]),
+	base="/lc"
     chunkSplitPlugin({
       strategy: 'default',
       customSplitting: {
@@ -31,7 +32,6 @@ export default defineConfig({
     }),
     prefetchPlugin()
   ],
-  base: "/lc",
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url)),
