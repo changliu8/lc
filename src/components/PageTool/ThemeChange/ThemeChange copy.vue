@@ -1,7 +1,6 @@
 <template>
   <div
-    class="group absolute top-3 right-[calc(100%-50px)] md:right-[2px] md:-top-10 z-10 flex flex-row justify-between size-8 leading-4 bg-white dark:bg-[var(--dark-bg-hover)] rounded p-2 cursor-pointer hover:text-cyan-400 z-100 dark-transition"
-
+    <!-- class="group absolute top-3 right-[calc(100%-50px)] md:right-[50px] md:-top-10 z-10 flex flex-row justify-between size-8 leading-4 bg-white dark:bg-[var(--dark-bg-hover)] rounded p-2 cursor-pointer hover:text-cyan-400 z-100 dark-transition" -->
     @click="handleSwitch">
     <Iconfont
       v-show="isDark"

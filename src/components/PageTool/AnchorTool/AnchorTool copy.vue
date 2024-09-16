@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="z-10 invisible md:visible group overflow-hidden absolute right-[50px] -top-10 min-w-8 rounded w-auto h-8 bg-white dark:bg-[var(--dark-bg-hover)] -translate-x-1/8 dark-transition"
+    class="z-10 invisible md:visible group overflow-hidden absolute right-[82px] -top-10 min-w-8 rounded w-auto h-8 bg-white dark:bg-[var(--dark-bg-hover)] -translate-x-1/2 dark-transition"
     :class="{ 'is-checked': checked }">
     <input
       type="checkbox"

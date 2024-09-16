@@ -4,7 +4,7 @@
     <section
       class="relative sm:w-full md:w-full max-w-[1600px] flex flex-col md:flex-row justify-center align-middle text-color shadow-inner sm:shadow-2xl dark:shadow-neutral-700">
       <AnchorTool />
-      <DownloadTool />
+      <!-- <DownloadTool /> -->
       <ThemeChange />
       <Aside>
         <Avatar />
