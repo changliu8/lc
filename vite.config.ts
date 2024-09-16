@@ -18,7 +18,7 @@ export default defineConfig({
     //     style: 'css',
     //   }
     // ]),
-	base="/lc"
+	base="/lc",
     chunkSplitPlugin({
       strategy: 'default',
       customSplitting: {
