@@ -15,7 +15,7 @@
 import Iconfont from '../../Iconfont/Iconfont.vue'
 function downloadPdf() {
   let $el = document.createElement('a')
-  $el.href = '/lc/public/chang_liu_resume.pdf'
+  $el.href = 'lc/public/chang_liu_resume.pdf'
   $el.target = '_blank'
   $el.download = `chang_liu_resume.pdf`
   document.body.appendChild($el)
